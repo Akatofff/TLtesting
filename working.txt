@@ -1,4 +1,5 @@
-Working link:
-https://itunes.apple.com/ru/app/tl-extranet/id1137018179?mt=8
-
- 
+Working link: https://travelline.ru/upload/files/products/tl-price-optimizer/Price_Optimizer_RU.pdf Response: OK
+Working link: https://www.travelline.ru/products/price-optimizer/#tl-order-popup Response: OK
+Working link: https://www.travelline.ru/products/webpms/#tl-order-popup Response: OK
+Working link: https://www.travelline.ru/products/webpms/#tl-order-popup-demo Response: OK
+Working link: https://www.travelline.ru/products/webpms Response: Moved Permanently
