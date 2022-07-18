@@ -56,7 +56,7 @@ public class Testing {
                 HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
                 httpURLConnect.setConnectTimeout(5000);
                 httpURLConnect.connect();
-                if (link.contains("travelline.ru")) {
+
                     if (httpURLConnect.getResponseCode() >= 400) {
                         try {
                             broken.write("Broken Link: " + link + " | Response: " + httpURLConnect.getResponseMessage() + "\n");
@@ -65,7 +65,9 @@ public class Testing {
                         }
                         System.out.println(link + " - " + httpURLConnect.getResponseMessage() + " - is a broken link");
                     } else {
-                        brokenLinks(link);
+                        if (link.contains("travelline.ru")) {
+                            brokenLinks(link);
+                        }
                         try {
                             working.write("Working link: " + link + " | Response: " + httpURLConnect.getResponseMessage() + "\n");
                             working.flush();
@@ -73,7 +75,7 @@ public class Testing {
                         } catch (Exception e) {
                         }
                     }
-                }
+
 
             } catch (Exception e) {
             }

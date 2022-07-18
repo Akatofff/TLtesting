@@ -1,0 +1,3 @@
+Broken Link: https://guestsync.travelline.ru/amo/events/onCrmContactsUpdate | Response: Method Not Allowed
+Broken Link: https://site.ru/booking/?tl-offer=111753&arrival-date-offset=%2B2&nights=3 | Response: Service Unavailable
+Broken Link: https://site.ru/booking/?tl-offer=111753&arrival-date-offset=%2B2 | Response: Service Unavailable
